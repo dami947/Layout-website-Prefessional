@@ -1,0 +1,120 @@
+@media(min-width:992px) {
+    .section-padding {
+        padding: 10em 0;
+    }
+
+
+    .nav {
+        .nav-link {
+            padding-right: 1em;
+            padding-left: 1em;
+            font-size: 1.5rem;
+        }
+
+        .nav-logo {
+            .nav-logo-img {
+                padding-left: 2em;
+                width: 200px;
+            }
+        }
+    }
+
+    .header {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 8em 0;
+        height: auto;
+
+        .header-text {
+            align-items: flex-start;
+            text-align: left;
+            padding: 8em 2em;
+        }
+    }
+
+    .about-us {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+
+        .about-us-right {
+            align-items: flex-start;
+            padding: 0 1.5em 0 3em;
+            font-size: 1.6rem;
+            width: 60%;
+        }
+
+        .about-us-left {
+            width: 40%;
+        }
+    }
+
+    .driving-course {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+
+        .driving-course-right {
+            align-items: flex-start;
+            width: 45%;
+
+            .driving-course-text {
+                text-align: left;
+            }
+        }
+    }
+
+}
+
+@media(min-width:1200px) {
+    .reviews {
+
+        .reviews-boxes {
+
+            .reviews-box {
+                width: 25%;
+            }
+
+            .reviews-box-info {
+                height: 230px;
+            }
+        }
+    }
+
+    .deadlines {
+
+        .cards {
+            justify-content: space-between;
+            width: 95%;
+
+            .card-box {
+                margin: 2em .5em;
+                padding: 3em;
+                width: 31%;
+            }
+        }
+    }
+
+    .map {
+        .contact-box {
+            padding: 4em 8em 4em 3em;
+        }
+    }
+
+    .footer-info {
+
+        .logo-footer {
+            padding-right: 8em;
+        }
+
+        .footer-text-left {
+            .text-top {
+                padding: 0 8em 2em 0;
+            }
+        }
+
+        .footer-text-right {
+            .text-top {
+                padding: 0 7em 2em 0;
+            }
+        }
+    }
+}
